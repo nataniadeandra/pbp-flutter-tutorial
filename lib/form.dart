@@ -239,10 +239,10 @@ class _MyFormPageState extends State<MyFormPage> {
                                   // TODO: Munculkan informasi yang didapat dari form
                                   Text('Nama Lengkap : ' + '$_namaLengkap'),
                                   SizedBox(height: 20),
-                                  if (jenjangSarjana) Text('Jenjang : Jenjang Sarjana')
-                                  else if (jenjangDiploma) Text('Jenjang : Jenjang Diploma')
-                                  else if (jenjangDiploma) Text('Jenjang : Jenjang Mag')
-                                  else Text('Jenjang : Jenjang Doktor'),
+                                  if (jenjangSarjana) Text('Jenjang : Sarjana')
+                                  else if (jenjangDiploma) Text('Jenjang : Diploma')
+                                  else if (jenjangDiploma) Text('Jenjang : Magister')
+                                  else Text('Jenjang : Doktor'),
                                   SizedBox(height: 20),
                                   Text('Umur : ' + umur.toString() ),
                                   SizedBox(height: 20),
